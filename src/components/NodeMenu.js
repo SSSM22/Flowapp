@@ -2,7 +2,7 @@ import React from 'react';
 import { useDrag } from 'react-dnd';
 
 const NodeMenu = () => {
-    const nodeTypes = ["input", "model", "output"];
+    const nodeTypes = ["input","split", "model", "output"];
 
     return (
         <div>
